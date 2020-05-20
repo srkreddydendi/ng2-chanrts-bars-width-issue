@@ -1,0 +1,15 @@
+        <canvas baseChart #stackChart style="position: relative;top: 15px;"
+        width="500" height="170"
+            [colors]="chartColors"
+            [(datasets)]="chartData"
+            [labels]="chartLabels"
+            [options]="chartOptions"
+            [legend]="chartLegend"
+            [chartType]="chartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"></canvas>
+
+
+
+            
+      
